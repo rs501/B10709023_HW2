@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edName"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_Name_Hint"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <EditText
+            android:id="@+id/edNumber"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_Num_Hint"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="297dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCancel"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="374dp" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnOk"
+            tools:layout_editor_absoluteX="118dp"
+            tools:layout_editor_absoluteY="159dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
